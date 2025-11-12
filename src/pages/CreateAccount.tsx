@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import weeklyImage from "../assets/images/works/weekly.png";
 
 export const CreateAccount: React.FC = () => {
@@ -43,9 +42,12 @@ export const CreateAccount: React.FC = () => {
 
           {/* Right Side - Create Account Form */}
           <div>
-            <h1 className="text-4xl sm:text-5xl font-bold mb-4">Create Account</h1>
+            <h1 className="text-4xl sm:text-5xl font-bold mb-4">
+              Create Account
+            </h1>
             <p className="text-text-secondary text-lg mb-8">
-              Welcome! Enter Your Details And Start Creating, Collecting And Selling NFTs.
+              Welcome! Enter Your Details And Start Creating, Collecting And
+              Selling NFTs.
             </p>
 
             {/* Form */}
@@ -93,7 +95,9 @@ export const CreateAccount: React.FC = () => {
 
             {/* Newsletter Section */}
             <div className="bg-background-secondary rounded-20 p-8">
-              <h3 className="text-2xl font-bold mb-2">Join Our Weekly Digest</h3>
+              <h3 className="text-2xl font-bold mb-2">
+                Join Our Weekly Digest
+              </h3>
               <p className="text-text-secondary mb-6">
                 Get exclusive promotions & updates straight to your inbox.
               </p>
@@ -103,7 +107,10 @@ export const CreateAccount: React.FC = () => {
                   placeholder="Enter your email here"
                   className="flex-1 bg-background-primary text-text-primary px-5 py-3 rounded-20 outline-none focus:ring-2 focus:ring-accent-primary"
                 />
-                <button type="submit" className="btn-primary px-8 py-3 whitespace-nowrap">
+                <button
+                  type="submit"
+                  className="btn-primary px-8 py-3 whitespace-nowrap"
+                >
                   Subscribe
                 </button>
               </form>
